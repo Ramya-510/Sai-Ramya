@@ -1,16 +1,18 @@
+import { asset } from "../utils/asset.js";
+
 export const sellerShots = [
-  { src: "/flint/seller-products.jpg", alt: "Seller product management" },
-  { src: "/flint/seller-dashboard.jpg", alt: "Seller dashboard" },
-  { src: "/flint/seller-colors.jpg", alt: "Seller color catalog" },
-  { src: "/flint/seller-sizes.jpg", alt: "Seller size management" },
-  { src: "/flint/seller-category.jpg", alt: "Seller category request" },
+  { src: asset("flint/seller-products.jpg"), alt: "Seller product management" },
+  { src: asset("flint/seller-dashboard.jpg"), alt: "Seller dashboard" },
+  { src: asset("flint/seller-colors.jpg"), alt: "Seller color catalog" },
+  { src: asset("flint/seller-sizes.jpg"), alt: "Seller size management" },
+  { src: asset("flint/seller-category.jpg"), alt: "Seller category request" },
 ];
 
 export const storefrontShots = [
-  { src: "/flint/dasara.jpg", alt: "Flint & Thread Dasara specials" },
-  { src: "/flint/categories.jpg", alt: "Flint & Thread category showcase" },
-  { src: "/flint/offers.jpg", alt: "Flint & Thread best offers" },
-  { src: "/flint/account.jpg", alt: "Flint & Thread account page" },
+  { src: asset("flint/dasara.jpg"), alt: "Flint & Thread Dasara specials" },
+  { src: asset("flint/categories.jpg"), alt: "Flint & Thread category showcase" },
+  { src: asset("flint/offers.jpg"), alt: "Flint & Thread best offers" },
+  { src: asset("flint/account.jpg"), alt: "Flint & Thread account page" },
 ];
 
 export const projects = [

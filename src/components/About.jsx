@@ -1,10 +1,17 @@
 import { siteConfig } from "../data/siteConfig.js";
-import { education } from "../data/projects.js";
+
+const marks = [
+  {
+    title: "Turning challenges into solutions",
+    note: "I enjoy analyzing technical challenges, identifying the root cause of issues, and developing practical solutions that make applications more effective and user-friendly.",
+  },
+  {
+    title: "Growing together as a team",
+    note: "I value teamwork, clear communication, and continuous learning. I enjoy sharing ideas, accepting feedback, and working together to build better products.",
+  },
+];
 
 export default function About() {
-  const college = education[0];
-  const diploma = education[1];
-
   return (
     <section className="section" id="about">
       <div className="wrap about-grid">
@@ -17,8 +24,12 @@ export default function About() {
           <p className="muted" style={{ maxWidth: "62ch" }}>{siteConfig.about}</p>
           <p>{siteConfig.name} · {siteConfig.location}</p>
           <div className="stats">
-            <article className="stat"><b>{college.year}</b><span>{college.degree} · {college.score}</span><span className="muted">{college.school}</span></article>
-            <article className="stat"><b>{diploma.year}</b><span>{diploma.degree} · {diploma.score}</span><span className="muted">{diploma.school}</span></article>
+            {marks.map((mark) => (
+              <article className="stat" key={mark.title}>
+                <b>{mark.title}</b>
+                <span className="muted">{mark.note}</span>
+              </article>
+            ))}
           </div>
         </div>
       </div>

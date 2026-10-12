@@ -8,7 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 export default function SmoothScroll() {
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) return undefined;
+    const coarse = window.matchMedia("(pointer: coarse)").matches;
+    const narrow = window.matchMedia("(max-width: 1100px)").matches;
+    if (reduce || coarse || narrow) return undefined;
     const lenis = new Lenis({
       lerp: 0.085,
       smoothWheel: true,

@@ -42,6 +42,11 @@
   to { background-position: -120% 0; }
 }
 
+@keyframes shot-zoom-in {
+  from { transform: scale(0.82); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .shot-track { flex-wrap: wrap; width: auto; }
   *, *::before, *::after {

@@ -37,8 +37,8 @@ export const projects = [
       "SendGrid notifications",
       "Responsive web application and React Native mobile application",
     ],
-    github: "https://github.com/flintnthread/ecommerce-mobile",
-    live: "https://flintnthread.in",
+    github: "",
+    live: "https://flintnthread.in/",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const projects = [
       "REST API integration and MySQL database",
     ],
     github: "",
-    live: "https://seller.flintnthread.in",
+    live: "https://seller.flintnthread.in/",
   },
 ];
 

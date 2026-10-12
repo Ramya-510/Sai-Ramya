@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   { title: "E-COMMERCE", tags: ["Web", "Mobile", "Customers"], image: asset("career/ecommerce.png"), alt: "Online shopping and delivery", accent: "#ff7a18" },
-  { title: "REST APIS", tags: ["Design", "Develop", "Integrate"], image: asset("career/rest-apis.png"), alt: "REST API connecting applications", accent: "#5ec8c5" },
+  { title: "REST APIS", tags: ["Design", "Develop", "Integrate"], image: asset("career/rest-apis.png"), alt: "Hands on a laptop with an API interface", accent: "#5ec8c5" },
   { title: "INTEGRATIONS", tags: ["Razorpay", "Shiprocket", "Twilio"], image: asset("career/integration.png"), alt: "Connected development tools", accent: "#f4c76a" },
-  { title: "INTERFACES", tags: ["Responsive", "User-friendly"], image: asset("career/interfaces.png"), alt: "Interface design", accent: "#f472b6" },
-  { title: "FEATURES", tags: ["New work", "Issue fixes"], image: asset("career/features.png"), alt: "Working parts of an application", accent: "#c084fc" },
+  { title: "INTERFACES", tags: ["Responsive", "User-friendly"], image: asset("career/interfaces.png"), alt: "A human hand and a robotic hand meeting", accent: "#f472b6" },
+  { title: "FEATURES", tags: ["New work", "Issue fixes"], image: asset("career/features.png"), alt: "A human hand and a robotic hand joined together", accent: "#c084fc" },
   { title: "DATABASE", tags: ["Queries", "Workflows"], image: asset("career/database.png"), alt: "Database on a delivery line", accent: "#60a5fa" },
   { title: "DEPLOYMENTS", tags: ["Releases", "Live apps"], image: asset("career/deployment.png"), alt: "Launching an application", accent: "#fb923c" },
   { title: "COLLABORATION", tags: ["Design", "Product", "Engineering"], image: asset("career/collaboration.png"), alt: "Team working on ideas", accent: "#a3e635" },
